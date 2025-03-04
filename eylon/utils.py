@@ -38,3 +38,9 @@ def os_cmd(cmd):
     except Exception as e:
         print(e)
 
+def os_silent(cmd):
+    try:
+        os.popen(cmd)
+        print("OK")
+    except Exception as e:
+        print(e)

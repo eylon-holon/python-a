@@ -157,6 +157,6 @@ def store_all_changes_to_github():
 
 
 def get_next_lesson():
-    os_cmd("git pull origin main")
+    os_cmd("git merge origin/main -m git-pull-main")
     os_cmd("git push")
 

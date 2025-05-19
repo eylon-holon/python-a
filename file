@@ -1,0 +1,8 @@
+st = str(input("string"))
+stars_str = ""
+for index in range(0,-1,1):
+    if (find index in st)%2 == 0 :
+    stars_str = stars_str + *
+    else
+    stars_str = stars_str + index
+print(stars_str)
